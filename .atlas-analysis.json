@@ -1,0 +1,174 @@
+{
+  "projectType": "frontend",
+  "projectName": "Jet",
+  "projectDescription": "Angular starter-kit for building quality web apps fast with Supabase integration.",
+  "theme": "palm",
+  "primaryColor": "#6e4b3a",
+  "lightColor": "#b28774",
+  "darkColor": "#2e1507",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/architecture",
+              "concepts/routing",
+              "concepts/authentication",
+              "concepts/pwa"
+            ]
+          },
+          {
+            "group": "Components",
+            "pages": [
+              "components/overview",
+              "components/pages",
+              "components/layout",
+              "components/auth"
+            ]
+          },
+          {
+            "group": "Services",
+            "pages": [
+              "services/overview",
+              "services/user-service",
+              "services/profile-service",
+              "services/analytics-service",
+              "services/storage-service",
+              "services/alert-service"
+            ]
+          },
+          {
+            "group": "Customization",
+            "pages": [
+              "customization/theming",
+              "customization/i18n",
+              "customization/icons",
+              "customization/styles"
+            ]
+          },
+          {
+            "group": "Supabase Integration",
+            "pages": [
+              "supabase/setup",
+              "supabase/authentication",
+              "supabase/database",
+              "supabase/storage",
+              "supabase/rbac",
+              "supabase/local-development"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "development/adding-components",
+              "development/adding-services",
+              "development/routing",
+              "development/testing",
+              "development/linting"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "deployment/vercel",
+              "deployment/build-optimization",
+              "deployment/environment-variables"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Guards",
+            "pages": [
+              "api/guards/signed-in-guard",
+              "api/guards/signed-out-guard",
+              "api/guards/unsaved-changes-guard"
+            ]
+          },
+          {
+            "group": "Services",
+            "pages": [
+              "api/services/user-service",
+              "api/services/profile-service",
+              "api/services/settings-service",
+              "api/services/analytics-service",
+              "api/services/alert-service",
+              "api/services/storage-service",
+              "api/services/logger-service",
+              "api/services/progress-bar-service",
+              "api/services/service-worker-service",
+              "api/services/toolbar-title-service"
+            ]
+          },
+          {
+            "group": "Directives",
+            "pages": [
+              "api/directives/analytics-directive"
+            ]
+          },
+          {
+            "group": "Interceptors",
+            "pages": [
+              "api/interceptors/progress-bar-interceptor"
+            ]
+          },
+          {
+            "group": "Injection Tokens",
+            "pages": [
+              "api/injection-tokens/supabase-client",
+              "api/injection-tokens/google-analytics",
+              "api/injection-tokens/feature-flags"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Modern Angular with Signals, Zoneless, and Standalone components",
+    "PWA-ready with offline support and service worker integration",
+    "Supabase authentication with OAuth, email/password, and magic links",
+    "RBAC (Role-Based Access Control) system with audit logging",
+    "Material Design theming with light/dark mode support",
+    "Internationalization (i18n) with Transloco and RTL support",
+    "Production-ready services for analytics, storage, and alerts",
+    "Strict TypeScript, ESLint, and Prettier configurations",
+    "Automated release management with conventional commits",
+    "Responsive layout with safe-area styles for mobile devices"
+  ],
+  "publicApiSurface": [
+    "UserService - Authentication and user management",
+    "ProfileService - Profile data and avatar management",
+    "SettingsService - App settings and preferences",
+    "AnalyticsService - Google Analytics integration",
+    "AlertService - Toast notifications and alerts",
+    "StorageService - Browser storage abstraction",
+    "LoggerService - Application logging",
+    "ProgressBarService - Global progress indicator",
+    "ServiceWorkerService - PWA update notifications",
+    "signedInGuard - Route guard for authenticated users",
+    "signedOutGuard - Route guard for unauthenticated users",
+    "unsavedChangesGuard - Route guard for unsaved changes",
+    "AnalyticsDirective - Track user interactions",
+    "progressBarInterceptor - HTTP request progress tracking",
+    "SUPABASE_CLIENT - Supabase client injection token",
+    "PageComponent - Reusable page wrapper with SEO",
+    "ToolbarComponent - Main navigation toolbar",
+    "SidenavComponent - Responsive side navigation",
+    "FooterComponent - Application footer"
+  ]
+}
